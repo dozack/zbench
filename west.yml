@@ -2,9 +2,12 @@
 
 manifest:
   remotes:
-    - name: zephyrfork
+    - name: dozack
       url-base: https://github.com/dozack
   projects:
     - name: zephyr
-      remote: zephyrfork
-      revision: main
+      remote: dozack
+      west-commands: scripts/west-commands.yml
+      revision: subsys-canbus-j1939
+  self:
+    path: zbench
