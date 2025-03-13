@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  remotes:
+    - name: zephyrfork
+      url-base: https://github.com/dozack
+  projects:
+    - name: zephyr
+      remote: zephyrfork
+      revision: main
